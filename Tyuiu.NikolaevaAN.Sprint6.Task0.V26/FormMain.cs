@@ -33,7 +33,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task0.V26
 
         private void textBoxVarX_NAN_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //
+            
         }
 
         private void buttonHelp_NAN_Click(object sender, EventArgs e)

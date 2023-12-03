@@ -12,7 +12,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task0.V26.Lib
         public double Calculate(int x)
         {
             double res = (Math.Pow(x, 2) + 1) / (3 * x + 4);
-            return Math.Round(res, 3); //
+            return Math.Round(res, 3);
         }
     }
 }
