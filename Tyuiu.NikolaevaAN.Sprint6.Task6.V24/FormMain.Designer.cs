@@ -96,12 +96,12 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task6.V24
             // 
             // buttonOpenFile_NAN
             // 
-            this.buttonOpenFile_NAN.BackColor = System.Drawing.Color.Teal;
+            this.buttonOpenFile_NAN.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenFile_NAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_NAN.Image")));
             this.buttonOpenFile_NAN.Location = new System.Drawing.Point(3, 4);
             this.buttonOpenFile_NAN.Name = "buttonOpenFile_NAN";
             this.buttonOpenFile_NAN.Size = new System.Drawing.Size(102, 89);
             this.buttonOpenFile_NAN.TabIndex = 0;
-            this.buttonOpenFile_NAN.Text = "Выбрать файл";
             this.toolTip_NAN.SetToolTip(this.buttonOpenFile_NAN, "Открыть файл\r\nВыберите нужный файл для обработки");
             this.buttonOpenFile_NAN.UseVisualStyleBackColor = false;
             this.buttonOpenFile_NAN.Click += new System.EventHandler(this.buttonOpenFile_NAN_Click);
@@ -184,13 +184,13 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task6.V24
             // 
             // buttonDone_NAN
             // 
-            this.buttonDone_NAN.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.buttonDone_NAN.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonDone_NAN.Enabled = false;
+            this.buttonDone_NAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_NAN.Image")));
             this.buttonDone_NAN.Location = new System.Drawing.Point(111, 4);
             this.buttonDone_NAN.Name = "buttonDone_NAN";
             this.buttonDone_NAN.Size = new System.Drawing.Size(102, 89);
             this.buttonDone_NAN.TabIndex = 1;
-            this.buttonDone_NAN.Text = "Выполнить";
             this.toolTip_NAN.SetToolTip(this.buttonDone_NAN, "Выводит первое слово каждой строки в результирующую строку");
             this.buttonDone_NAN.UseVisualStyleBackColor = false;
             this.buttonDone_NAN.Click += new System.EventHandler(this.buttonDone_NAN_Click);
@@ -198,12 +198,12 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task6.V24
             // buttonHelp_NAN
             // 
             this.buttonHelp_NAN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonHelp_NAN.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.buttonHelp_NAN.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonHelp_NAN.Image = ((System.Drawing.Image)(resources.GetObject("buttonHelp_NAN.Image")));
             this.buttonHelp_NAN.Location = new System.Drawing.Point(744, 4);
             this.buttonHelp_NAN.Name = "buttonHelp_NAN";
             this.buttonHelp_NAN.Size = new System.Drawing.Size(101, 89);
             this.buttonHelp_NAN.TabIndex = 2;
-            this.buttonHelp_NAN.Text = "Справка";
             this.toolTip_NAN.SetToolTip(this.buttonHelp_NAN, "Сведение о программе");
             this.buttonHelp_NAN.UseVisualStyleBackColor = false;
             this.buttonHelp_NAN.Click += new System.EventHandler(this.buttonHelp_NAN_Click);
