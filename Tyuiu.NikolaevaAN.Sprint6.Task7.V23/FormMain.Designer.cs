@@ -142,6 +142,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task7.V23
             this.buttonOpenFile_NAN.Name = "buttonOpenFile_NAN";
             this.buttonOpenFile_NAN.Size = new System.Drawing.Size(90, 67);
             this.buttonOpenFile_NAN.TabIndex = 0;
+            this.toolTipButton_NAN.SetToolTip(this.buttonOpenFile_NAN, "Выберите нужный файл для обработки");
             this.buttonOpenFile_NAN.UseVisualStyleBackColor = true;
             this.buttonOpenFile_NAN.Click += new System.EventHandler(this.buttonOpenFile_NAN_Click);
             this.buttonOpenFile_NAN.MouseEnter += new System.EventHandler(this.buttonOpenFile_NAN_MouseEnter);
@@ -156,6 +157,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task7.V23
             this.buttonDone_NAN.Name = "buttonDone_NAN";
             this.buttonDone_NAN.Size = new System.Drawing.Size(89, 66);
             this.buttonDone_NAN.TabIndex = 1;
+            this.toolTipButton_NAN.SetToolTip(this.buttonDone_NAN, "Изменяет в последнем столбце значения меньше 2 на 2");
             this.buttonDone_NAN.UseVisualStyleBackColor = true;
             this.buttonDone_NAN.Click += new System.EventHandler(this.buttonDone_NAN_Click);
             this.buttonDone_NAN.MouseEnter += new System.EventHandler(this.buttonDone_NAN_MouseEnter);
@@ -170,6 +172,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task7.V23
             this.buttonSaveFile_NAN.Name = "buttonSaveFile_NAN";
             this.buttonSaveFile_NAN.Size = new System.Drawing.Size(89, 65);
             this.buttonSaveFile_NAN.TabIndex = 2;
+            this.toolTipButton_NAN.SetToolTip(this.buttonSaveFile_NAN, "Сохраняет файл");
             this.buttonSaveFile_NAN.UseVisualStyleBackColor = true;
             this.buttonSaveFile_NAN.Click += new System.EventHandler(this.buttonSaveFile_NAN_Click);
             this.buttonSaveFile_NAN.MouseEnter += new System.EventHandler(this.buttonSaveFile_NAN_MouseEnter);
@@ -184,6 +187,7 @@ namespace Tyuiu.NikolaevaAN.Sprint6.Task7.V23
             this.buttonHelp_NAN.Name = "buttonHelp_NAN";
             this.buttonHelp_NAN.Size = new System.Drawing.Size(88, 65);
             this.buttonHelp_NAN.TabIndex = 3;
+            this.toolTipButton_NAN.SetToolTip(this.buttonHelp_NAN, "Сведение о программе");
             this.buttonHelp_NAN.UseVisualStyleBackColor = true;
             this.buttonHelp_NAN.Click += new System.EventHandler(this.buttonHelp_NAN_Click);
             this.buttonHelp_NAN.MouseEnter += new System.EventHandler(this.buttonHelp_NAN_MouseEnter);
